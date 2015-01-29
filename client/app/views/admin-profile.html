@@ -1,0 +1,20 @@
+<div class="jumbotron">
+  <h1>Welcome</h1>
+    <p>This is the admin profile view.</p>
+<h2>There have been {{attempts.length}} login attempts</h1>
+    <div ng-repeat="attempt in attempts">
+        <br />
+        <label>Username:</label>
+        {{attempt.username}}
+
+        <label>IP:</label>
+        {{attempt.IP}}
+
+        <label>Timestamp:</label>
+        {{attempt.datetime}}
+
+        <label>Action:</label>
+        {{attempt.attemptAction}}
+        <br />
+    </div>
+</div>
