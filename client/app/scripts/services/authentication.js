@@ -3,12 +3,11 @@
 // Authentication service for user variables
 angular.module('MeanApp').factory('Authentication', [
     function() {
-        var _this = this;
 
-        _this._data = {
+        auth_user = {
             user: window.user
         };
 
-        return _this._data;
+        return auth_user;
     }
 ]);

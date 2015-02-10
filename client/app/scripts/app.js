@@ -4,15 +4,15 @@ angular.module('MeanApp', ['ngResource','ngRoute']).config(function ($routeProvi
     $routeProvider
       .when('/', {
         templateUrl: 'views/signin.html',
-        controller:  'MainController',
+        controller:  'MainController'
       })
       .when('/profile', {
         templateUrl: 'views/profile.html',
-        controller:  'MainController',
+        controller:  'MainController'
       })
       .when('/admin', {
         templateUrl: 'views/admin-profile.html',
-        controller:  'AttemptsController',
+        controller:  'AttemptsController'
       })
       .otherwise({
         redirectTo: '/',
