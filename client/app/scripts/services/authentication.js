@@ -4,6 +4,8 @@
 angular.module('MeanApp').factory('Authentication', [
     function() {
 
+        var auth_user = this;
+
         auth_user = {
             user: window.user
         };
